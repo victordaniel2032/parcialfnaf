@@ -1,0 +1,108 @@
+body{
+    background-image: url(imagenes/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+.logo img {
+    height: 50px;
+}
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.main-nav ul li a:hover {
+    color: #ff6600;
+}
+#logo{
+    border-radius: 50%;
+}
+#contenedor{
+    border: 1px solid wheat;
+    width: 90%;
+    right: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p,h3,h1{
+    border: 1px solid black;
+    color: wheat;
+    width: 50%;
+}
+.footer{ /*esto es para que quede en el pie de pagina*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.fnaf-footer {
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-top: 3px solid #e60b0b;
+}
+
+.fnaf-footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fnaf-footer .social-media a {
+    color: #e60b0b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.fnaf-footer .social-media a:hover {
+    color: white;
+}
+
+.fnaf-footer .copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.fnaf-footer .credits a {
+    color: #e60b0b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.fnaf-footer .credits a:hover {
+    color: white;
+}

@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(to right , purple,white) ;
+}
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.main-nav ul li a:hover {
+    color: #ff6600;
+}
+#logo{
+    border-radius: 50%;
+}
+.logo img {
+    height: 50px;
+}
+section{
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#informacion{
+border: 1px solid red;
+width:300px;
+    margin:20px auto;
+    border:1px solid grey;
+    padding:20px;
+    background-color: wheat;
+}
+#menu{
+    border: 1px solid blue; 
+    background-color: wheat;
+    margin:20px auto;
+    border:1px solid grey;
+    padding:20px;
+}
+#mapa{
+    border: 1px solid gray;
+    background-color: wheat;
+    margin:20px auto;
+    border:1px solid grey;
+    padding:20px;
+}
+header{
+    display: flex;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}

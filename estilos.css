@@ -1,0 +1,124 @@
+body{
+    background-image: url(imagenes/84bfd039f5205e11c5204b50dd21292ab1ed4588f268835812d2a7e67b998f66.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    border: solid 1px yellow;
+    
+    
+}
+#eslogan{
+    display: flex;
+    justify-content: center;
+    border: solid 1px yellow;
+    
+    
+}
+#titulo{
+    width: 400px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#eslogan{
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#Menu{
+    width: 500px;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+div{
+    margin-bottom: 20px;
+    
+    
+}
+#Menu{
+    border: solid 1px yellow;
+    display: flex;
+    justify-content: center;
+}
+#Menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 10pt;
+    
+}
+#Menu a{
+    padding: 10px;
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+#Menu ul a:hover{
+    background-color: #C2A0E3;
+    color: #E3D954;
+    border-radius: 100%;
+    
+}
+h1,p{
+    color:#FAD39F ;
+}
+.fnaf-footer {
+    width: 100%;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-top: 3px solid #e60b0b;
+}
+
+.fnaf-footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fnaf-footer .social-media a {
+    color: #e60b0b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.fnaf-footer .social-media a:hover {
+    color: white;
+}
+
+.fnaf-footer .copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.fnaf-footer .credits a {
+    color: #e60b0b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.fnaf-footer .credits a:hover {
+    color: white;
+}
